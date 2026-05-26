@@ -1,0 +1,127 @@
+* {
+	background: #03001C;
+	color: white;
+}
+
+#navigation {
+	width: 100%;
+    height: 50px;
+    border: 0px;
+	background: #301e67;
+	padding: 0px;
+	margin: 0px;
+}
+
+body {
+	margin:0;
+	padding:0;
+}
+
+.nav_button {
+	border-radius:100px;
+	background-color:#30AADD;
+	border: black;
+	font-family: "Century Gothic";
+	color: white;
+	font-size: 15px;
+}
+
+
+h1 {
+	background-color:#301e67;
+	display:inline-block;
+	margin: 0;
+	padding: 0;
+	color: white;
+	font-family: "Century Gothic";
+	position:absolute; left:350px; top:5px;
+}
+
+#enregistrer {
+	position:absolute; left:1050px; top:14px;
+}
+
+#stop {
+	position:absolute; left:1220px; top:14px;
+}
+
+#score_button {
+	border: none;
+	width: 400px;
+	height: 400px;
+	position:absolute; left:150px; top:100px;
+}
+
+button {
+	border: none;
+}
+
+#Score {
+	font-family: "Century Gothic";
+	font-size: 25px;
+	background-color: #DC0000;
+	position:absolute; left:150px; top:450px;
+	width: 400px;
+	height: 50px;
+	text-align: center;
+	border-radius: 100px;
+	line-height: 50px;
+}
+
+#vitesse {
+	position:absolute; left:800px; top:100px;
+	background-color: #247881;
+	width: 300px;
+	height: 300px;
+	border: 5px solid #301e67;
+	border-radius: 15px;
+}
+
+#Moteurs {
+	position:absolute; left:800px; top:100px;
+	background-color: #247881;
+	width: 300px;
+	height: 300px;
+	border: 5px solid #301e67;
+	border-radius: 15px;
+}
+
+.tab_button{
+	background-color:#43919B;
+}
+
+#tab_vitesse {
+    position:absolute; left:835px; top:83px;
+}
+
+#tab_moteur {
+	position:absolute; left:880px; top:83px;
+}
+
+.boutton {
+	width: 50px;
+	height: 20px;
+	padding: 0;
+	margin: 0;
+	border: none;
+	background-color: #00FFC6;
+	border-radius: 100px;
+}
+
+#info {
+	 position:absolute; left: 660px; top:450px;
+	 background-color: #DC0000;
+	 width: 600px;
+	 height:150px;
+	 text-align: center;
+	 border-radius: 15px;
+	 
+}
+
+.text {
+	background-color: #247881;
+}
+
+.info_text {
+	background-color: #DC0000;
+}

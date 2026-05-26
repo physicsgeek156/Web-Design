@@ -1,0 +1,38 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+   <title>Jeu Clicker</title>
+   <meta charset="utf-8" />
+   <script src="Clicker.js" onload="Recuperer_Score()" onload="usine_en_marche()" defer ></script>
+   <link rel="stylesheet" href="CookieCliker.css">
+</head>
+<body>
+ <div id="navigation">
+   <h1>Decouverez l'éspace!</h1>
+   <button onclick="Enregistrer_la_partie()" class="nav_button" id="enregistrer"> Enregistrer la partie </button>
+   <button onclick="arrète_usine()"class="nav_button" id="stop">Stop Moteurs</button>
+  </div>
+  </br>
+  <section id="bouttons">
+     <button onclick="AugmenteScore()" ><img id="score_button" src="Millenium_Falcon.png"></button>
+     <p id="Score" >0 années lumières parcourus</p>
+	 <button onclick="openTab('vitesse')" class="tab_button" id="tab_vitesse">Vitesse</button>
+	 <button onclick="openTab('Moteurs')" class="tab_button" id="tab_moteur">Moteurs</button>
+	 <div id="Moteurs" class="tabs">
+     <input type="button" class="boutton"  onclick="Creer_usine()"></input>
+     <p id="usine_cout" class="text"> Creer un moteur = 25 années lumières </p>
+     <input type="button" class="boutton" onclick="Amélioration_usine()"></input>
+     <p id="usine_Lvl_cout" class="text"> Améliorer un moteur = 50 années lumières </p>
+	 </div>
+	 <div id="vitesse" class="tabs">
+     <input type="button" class="boutton" onclick="Amélioration_du_clic()"> </input>
+     <p id="LvlUp" class="text">Augmentation de vitesse à 2 années lumières par clic : 10 années lumières"</p> 
+	 </div>
+   </section>
+   <section id="info">
+     <h2 id="Lvl" class="info_text">Vitesse 1 années lumières par clic</h2>
+     <h2 id="usine" class="info_text"> 0 Moteurs</h2>
+     <h2 id="usine_Lvl" class="info_text"> Distance parcouru par moteur chaque seconde = 1 </h2>
+   </section>
+</body>
+</html>
